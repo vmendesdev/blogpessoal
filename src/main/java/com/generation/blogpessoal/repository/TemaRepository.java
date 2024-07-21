@@ -11,3 +11,4 @@ public interface TemaRepository extends JpaRepository<Tema, Long> {
 
 	public abstract List<Tema> findAllByDescricaoContainingIgnoreCase(@Param("descricao") String descricao);
 }
+
