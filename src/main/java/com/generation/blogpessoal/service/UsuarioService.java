@@ -104,5 +104,6 @@ public class UsuarioService {
 	private String gerarToken(String usuario) {
 		return "Bearer " + jwtService.generateToken(usuario);
 	}
+	
 
 }
