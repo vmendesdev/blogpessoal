@@ -35,7 +35,7 @@
         <li><strong>tests:</strong> Contém os testes realizados utilizando JUnit.</li>
     </ul>
 
-  <!--<h2>Configuração</h2>
+  <h2>Configuração</h2>
     <h3>Pré-requisitos</h3>
     <ul>
         <li>Java 17</li>
@@ -83,11 +83,11 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
         <li>POST /posts: Cria um novo post.</li>
         <li>PUT /posts/{id}: Atualiza um post existente.</li>
         <li>DELETE /posts/{id}: Deleta um post.</li>
-    </ul>-->
+    </ul>
 
   <h2>Segurança</h2>
     <p>O projeto utiliza Spring Security para gerenciar a autenticação e autorização. As rotas de autenticação (<code>/auth/login</code> e <code>/auth/register</code>) são públicas, enquanto as demais rotas são protegidas e requerem um token JWT para acesso.</p>
-<!--
+
 <h2>Testes</h2>
     <h3>Testes de API com Insomnia</h3>
     <p>Os testes de API foram realizados utilizando o Insomnia. Para importar as configurações, siga os passos abaixo:</p>
@@ -95,21 +95,21 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
         <li>Abra o Insomnia.</li>
         <li>Vá para <code>Application -> Preferences -> Data -> Import Data</code>.</li>
         <li>Selecione o arquivo <code>insomnia/insomnia.json</code> localizado no repositório do projeto.</li>
-    </ol>-->
-<!--
+    </ol>
+
    <h3>Testes Unitários</h3>
     <p>Os testes unitários foram realizados utilizando JUnit 5. Para executar os testes, utilize o seguinte comando:</p>
     <pre>
 ./mvnw test
-    </pre>-->
-<!--
+    </pre>
+
   <h2>Deploy</h2>
     <h3>Deploy com Render</h3>
-    <p>O projeto foi implantado utilizando a plataforma Render. Para mais detalhes sobre o processo de deploy, acesse o arquivo <code>deploy.md</code> no repositório.</p>-->
-<!--
+    <p>O projeto foi implantado utilizando a plataforma Render. Para mais detalhes sobre o processo de deploy, acesse o arquivo <code>deploy.md</code> no repositório.</p>
+
    <h2>Documentação</h2>
     <h3>Documentação Swagger</h3>
-    <p>A documentação da API foi gerada utilizando Swagger. Para acessar a documentação, inicie a aplicação e navegue até <a href="http://localhost:8080/swagger-ui.html">http://localhost:8080/swagger-ui.html</a>.</p>-->
+    <p>A documentação da API foi gerada utilizando Swagger. Para acessar a documentação, inicie a aplicação e navegue até <a href="http://localhost:8080/swagger-ui.html">http://localhost:8080/swagger-ui.html</a>.</p>
 
    <h2>Contribuição</h2>
     <p>Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.</p>
